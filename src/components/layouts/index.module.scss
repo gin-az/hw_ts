@@ -1,0 +1,42 @@
+.wrap{
+  background: #dddddd;
+  min-height: 100vh;
+}
+
+.fx{
+  margin: auto;
+  //max-width: 1100px;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+
+.bodyWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.head{
+  padding-top: 10px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  padding-bottom: 5px;
+}
+.banner{
+  padding-bottom: 5px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+.body{
+  flex: 1 1 auto;
+  padding: 50px 20px 20px 20px;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.footer{
+  background: #fff;
+  flex-shrink: 0;
+  flex-grow: 0;
+}

@@ -1,0 +1,281 @@
+{
+    "id":"12345678901234567890123456789012abcdef",
+    "lastName":"Петров",
+    "firstName":"Владимир",
+    "middleName":"Олегович",
+    "age":25,
+    "birthDate":"1996-05-11",
+    "gender":{"id":"ready","name":"Готов к командировкам"},
+    "area":{
+            "url":"https://api.hh.ru/areas/2",
+            "id":"2",
+            "name":"Санкт-Петербург"
+        },
+    "metro":{
+                "lat":55.658147,
+                "lng":37.540957,
+                "order":19,
+                "id":"6.47",
+                "name":"Калужская"
+            },
+    "relocation":null,
+    "businessTripReadiness":{
+                                "id":"ready",
+                                "name":"Готов к командировкам"
+                            },
+    "contact":
+                [   
+                    {
+                        "verified":true,
+                        "comment":"",
+                        "type":{
+                            "id":"skype",
+                            "name":"Skype"},
+                        "preferred":true,
+                        "value":{
+                            "valueClassValue": {
+                                "country":"7",
+                                "city":"123",
+                                "number":"4567890",
+                                "formatted":"+71234567890"
+                                },
+                            "stringValue":null
+                            }
+                    },
+                    {
+                        "verified":null,
+                        "comment":null,
+                        "type":{
+                            "id":"skype",
+                            "name":"Skype"
+                            },
+                        "preferred":false,
+                        "value":{
+                            "valueClassValue":null,
+                            "stringValue":"applicant@example.com"
+                            }
+                    }
+                ],
+    "site":[
+                {
+                    "url":"echo123",
+                    "type": 
+                            {
+                            "name":"Skype"
+                            }
+                },
+                {   
+                    "url":"123456",
+                    "type":
+                            {
+                            "id":"icq",
+                            "name":"ICQ"
+                            }
+                }
+            ],
+    "title":"Программист Python",
+    "photo":
+            {
+            "small":"https://hh.ru/...",
+            "medium":"https://hh.ru/...",
+            "id":"1337",
+            "description":null
+            },
+    "portfolio":
+                    [
+                        {
+                            "small":"https://hh.ru/...",
+                            "medium":"https://hh.ru/...",
+                            "id":"1337",
+                            "description":"..."
+                        }
+                    ],
+    "specialization":
+                        [
+                            {
+                                "id":"1.221",
+                                "name":"Программирование, Разработка",
+                                "profareaID":"1",
+                                "profareaName":"Информационные технологии, интернет, телеком",
+                                "laboring":false
+                            },
+                            {
+                                "id":"1.89",
+                                "name":"Интернет",
+                                "profareaID":"1",
+                                "profareaName":"Информационные технологии, интернет, телеком",
+                                "laboring":false
+                            },
+                            {
+                                "id":"1.9",
+                                "name":"Web инженер",
+                                "profareaID":"1",
+                                "profareaName":"Информационные технологии, интернет, телеком",
+                                "laboring":false
+                            }
+                        ],
+    "salary":
+                {
+                    "amount":100500,
+                    "currency":"RUR"
+                },
+    "employments":
+                  [
+                    {"id":"fullDay","name":"Полный день"},
+                    {"id":"flexible","name":"Гибкий график"}
+                  ],
+    "schedules":
+                [
+                    {"id":"fullDay","name":"Полный день"},
+                    {"id":"flexible","name":"Гибкий график"}
+                ],
+    "education": null,
+    "language":
+                [
+                    { 
+                        "id":"rus",
+                        "name":"Русский",
+                        "level":{
+                                    "id":"b2",
+                                    "name":"B2 — Средне-продвинутый"
+                                }
+                    },
+                    {   
+                        "id":"eng",
+                        "name":"Английский",
+                        "level":{
+                                    "id":"b2",
+                                    "name":"B2 — Средне-продвинутый"
+                                }
+                    }
+                ],
+    "experience":
+                    [
+                        {
+                            "company":"Название работодателя",
+                            "companyID":"",
+                            "area":
+                                    {
+                                        "url":"https://api.hh.ru/areas/113",
+                                        "id":"113","name":"Россия"
+                                    },
+                            "companyURL":"http://www.rbc.ru",
+                            "industries":
+                                            [
+                                                {
+                                                    "id":"7.540",
+                                                    "name":"Разработка программного обеспечения"
+                                                },
+                                                {
+                                                    "id":"9.399",
+                                                    "name":"Мобильная связь"
+                                                }
+                                            ],
+                            "position":"Должность",
+                            "start":"2005-04-01",
+                            "end":"2013-01-01",
+                            "description":"Описание деятельности в компании"
+                        }
+                    ],
+    "totalExperience":
+                        {
+                            "months":94
+                        },
+    "skills":"Дополнительная информация: ключевые навыки",
+    "skillSet":["HTML","CSS"],
+    "citizenship":
+                [
+                    {
+                        "url":"https://api.hh.ru/areas/113",
+                        "id":"113"
+                        ,"name":"Россия"
+                    }
+                ],
+    "workTicket":
+                    [
+                        {
+                            "url":"https://api.hh.ru/areas/113",
+                            "id":"113",
+                            "name":"Россия"
+                        }
+                    ],
+    "travelTime":
+                    {
+                        "id":"any",
+                        "name":"Не имеет значения"
+                    },
+    "recommendation":
+                        [
+                            {
+                                "name":"Петров Петр",
+                                "position":"старший научный сотрудник",
+                                "organization":"Роскосмос"
+                            }
+                        ],
+    "resumeLocale":
+                    {
+                        "id":"RU",
+                        "name":"Русский"
+                    },
+    "certificate":
+                    [
+                        {
+                            "title":"Oracle Certified Java Professional Programmer",
+                            "achievedAt":"2013-01-01",
+                            "type":"custom",
+                            "owner":null,
+                            "url":"https://example.com/certificate/123456"
+                        },
+                        {
+                            "title":"MCSE: Windows NT 4.0",
+                            "achievedAt":"1998-01-26",
+                            "type":"microsoft",
+                            "owner":"JOHN DOE",
+                            "url":null
+                        }
+                    ],
+    "alternateURL":"https://hh.ru/resume/12345678901234567890123456789012abcdef",
+    "createdAt":"2013-05-31T14:27:04+0400",
+    "updatedAt":"2013-10-17T15:22:55+0400",
+    "download":
+                {
+                    "pdf":
+                            {
+                            "url":"https://hh.ru/api_resume_converter/12345678901234567890123456789012abcdef/ФамилияИмяОтчество.pdf?type=pdf"
+                            },
+                    "rtf":
+                            {
+                            "url":"https://hh.ru/api_resume_converter/12345678901234567890123456789012abcdef/ФамилияИмяОтчество.rtf?type=rtf"
+                            }
+                },
+    "actions":
+                {
+                    "download":
+                                {
+                                    "pdf":{
+                                            "url":"https://hh.ru/api_resume_converter/12345678901234567890123456789012abcdef/ФамилияИмяОтчество.pdf?type=pdf"
+                                          },
+                                    "rtf":{
+                                            "url":"https://hh.ru/api_resume_converter/12345678901234567890123456789012abcdef/ФамилияИмяОтчество.rtf?type=rtf"
+                                          }
+                                                                }
+                },
+    "hasVehicle": true,
+    "driverLicenseTypes":
+                            [
+                                {
+                                    "id":"A"
+                                },
+                                { 
+                                    "id":"B"
+                                }           
+                            ],
+    "hiddenFields":
+                    [
+                        {
+                            "id":"phones",
+                            "name":"Все указанные в резюме телефоны"
+                        }
+                    ],
+    "marked":true
+}

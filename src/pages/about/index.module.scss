@@ -1,0 +1,134 @@
+
+$color_palette_pr_light: #b0bec5;
+$color_palette_pr_main: #78909c;
+$color_palette_pr_dark: #546e7a;
+
+$color_palette_sec_light: #b2dfdb;
+$color_palette_sec_main: #80cbc4;
+$color_palette_sec_dark: #4db6ac;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $color_palette_pr_dark;
+}
+.header {
+  background: $color_palette_pr_dark;
+  // background: -webkit-linear-gradient(360deg, rgba($color_palette_pr_dark) 0%, rgba($color_palette_pr_main) 50%);
+  background: -moz-linear-gradient(360deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 50%);
+  background: linear-gradient(360deg, ($color_palette_pr_dark) 0%, ($color_palette_pr_main) 90%);
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+    color: $color_palette_sec_light;
+    .nav {
+      display: flex;
+      align-items: center;
+    }
+    .nav_right {
+      display: flex;
+      justify-content: flex-end;
+      margin-left: auto;
+      align-self: center;
+      margin-right: 16px;
+      img {
+        height: max-content;
+      }
+    }
+    .ibs {
+      img {
+        margin-top: 2px;
+        margin-left: 30px;
+        opacity: 0.6;
+      }
+    }
+
+    .nav_menu {
+      margin-left: 30px;
+      &_items {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        .nav_menu_item{
+          margin-left: 25px;
+          a {
+            text-decoration: none;
+            color: $color_palette_sec_light;
+          }
+        }
+      }
+    }
+  }
+}
+
+.content {
+  max-width: 1111px;
+  margin: 0 auto;
+  height: inherit;
+}
+.form_item {
+  color: $color_palette_sec_dark;
+  input: {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.widgets {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  &_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &_wrapper {
+
+      display: flex;
+      flex-wrap: nowrap;
+      width: 40%;
+      padding: 10px;
+      box-sizing: border-box;
+      transition: border-color 350ms;
+      &_photo {
+        img {
+          display: block;
+          width: 96px;
+          height: 96px;
+          margin-right: 25px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          border-radius: 50%;
+        }
+      }
+
+      &_text {
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+        &_name {
+          display: block;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: normal;
+          line-height: 1.41666667;
+        }
+        &_description {
+          display: block;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: normal;
+          line-height: 1.5;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+  
+  
+  

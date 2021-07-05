@@ -1,0 +1,28 @@
+.menu{
+  & a{
+    //color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  img {
+    padding-top: 20px;
+    opacity: 0.65;
+  }
+}
+.del_margin_left{
+  & a{
+    &:first-child{
+      margin-left: 200px;
+    }
+  }
+}
+.del_margin_right{
+  & a{
+    &:last-child{
+      margin-right: 60px;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+$color_palette_pr_light: #b0bec5;
+$color_palette_pr_main: #78909c;
+$color_palette_pr_dark: #546e7a;
+
+$color_palette_sec_light: #b2dfdb;
+$color_palette_sec_main: #80cbc4;
+$color_palette_sec_dark: #4db6ac;
+
+.wrap{
+  background: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  //align-items: center;
+  padding: 0 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+}
+.left{
+  display: flex;
+  align-items: center;
+  & a{
+    color: $color_palette_sec_light;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover{
+      color: $color_palette_sec_dark;
+      -moz-transition: all 1s ease;
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+    }
+  }
+  & img {
+    margin-top: 3px;
+    margin-left: 30px;
+    opacity: 0.6;
+  }
+}
+.right{
+  text-align: right;
+  img {
+    opacity: 0.6;
+  }
+}
+.menu{
+  margin-left: 50px;
+  //& a{
+  //  color: #000;
+  //}
+}
+
+
+
+
+.header {
+  background: $color_palette_pr_dark;
+  background: -webkit-linear-gradient(360deg, ($color_palette_pr_dark) 0%, ($color_palette_pr_main) 90%);
+  background: -moz-linear-gradient(360deg, ($color_palette_pr_dark) 0%, ($color_palette_pr_main) 90%);
+  background: linear-gradient(360deg, ($color_palette_pr_dark) 0%, ($color_palette_pr_main) 90%);
+  height: 86px;
+  z-index: 30;
+  padding: 0 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .section1 {
+    display: flex;
+    justify-content: space-between;
+    .nav {
+      display: flex;
+      align-items: center;
+
+    }
+    .nav_right {
+      display: flex;
+      justify-content: flex-end;
+      margin-left: auto;
+      align-self: center;
+      margin-right: 16px;
+      img {
+        height: max-content;
+      }
+    }
+    .ibs {
+      img {
+        margin-top: 2px;
+        margin-left: 30px;
+        opacity: 0.6;
+      }
+
+    }
+  }
+}

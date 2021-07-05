@@ -1,0 +1,21 @@
+$color_palette_pr_light: #b0bec5;
+$color_palette_pr_main: #78909c;
+$color_palette_pr_dark: #546e7a;
+
+$color_palette_sec_light: #b2dfdb;
+$color_palette_sec_main: #80cbc4;
+$color_palette_sec_dark: #4db6ac;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
